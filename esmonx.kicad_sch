@@ -1,0 +1,104 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c1d83899-e380-49f9-a87d-8e78bc089ebf")
+	(paper "USLetter")
+	(title_block
+		(title "ESMonX")
+		(date "2025-03-22")
+		(rev "A")
+		(company "Sesa Design Inc")
+	)
+	(lib_symbols)
+	(sheet
+		(at 33.02 38.1)
+		(size 29.21 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e802c0d1-fcad-4aac-83a3-196a874c4af1")
+		(property "Sheetname" "Power"
+			(at 33.02 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 33.02 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esmonx"
+				(path "/c1d83899-e380-49f9-a87d-8e78bc089ebf"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.58 38.1)
+		(size 35.56 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed06efbe-31fc-4a5a-a812-efe19e141908")
+		(property "Sheetname" "ESD_sensor"
+			(at 195.58 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esd_sensor.kicad_sch"
+			(at 195.58 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esmonx"
+				(path "/c1d83899-e380-49f9-a87d-8e78bc089ebf"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
