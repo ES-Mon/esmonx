@@ -1416,7 +1416,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFG PN" " TLV9151SIDBVR"
+			(property "MFG PN" "TLV9151IDBVR"
 				(at -0.254 -3.556 0)
 				(effects
 					(font
@@ -3934,7 +3934,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG PN" "TLV9151SIDBVR"
+		(property "MFG PN" "TLV9151IDBVR"
 			(at 101.346 58.166 0)
 			(effects
 				(font
